@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+body{font-family: 'Roboto', sans-serif; background-color: rgb(30,30,30); margin: 0 auto; width: 100%;}
+p{font-size: 1.25em; color: white;}
+button{height: 75px; width: 75px; margin-left: 1500px; background-color: rgb(30,30,30); border-radius: 0px; border: 0px}
+
+#hero{display: flex; justify-content: center; flex-direction: column; height: 55vh; background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)) ,url("media/front-end.png"); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+#hero h1{color: white; font-size: 90px; text-align: center;}
+#hero h3{color: white; font-size: 20px; margin-left: 80px;}
+#somos-proya .container{text-align: center; padding: 150px 12px;}
+#caracteristicas .container{padding: 150px 12px;}
+#somos-proya .container{display: flex; justify-content: space-evenly;}
+#somos-proya .texto{width: 50%; height: 50vh; max-width: 600px; text-align: initial; padding-left: 25px; display: flex; flex-direction: column; justify-content: center;}
+#somos-proya h2{margin-top: 0px; font-size: 2.7em; color: white;}
+#somos-proya .img-container{ background-image: url("media/jew.png"); background-size: cover; background-position: center center; height: 500px; width: 500px;}
+#pista .img-container{ background-image: url("media/pista.png"); background-size: cover;}
+#caracteristicas .container{display: flex; justify-content: space-evenly;}
+#caracteristicas .texto{margin-left: 100px; text-align: initial; padding-left: 30px; display: flex; flex-direction: column;}
+
